@@ -87,6 +87,10 @@ footer {
   max-width: px;
 }
 
+form {
+  padding: 20px 5px;
+}
+
 @media (max-width: 768px) {
   nav {
     padding-left: 0;
