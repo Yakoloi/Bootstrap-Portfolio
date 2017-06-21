@@ -1,0 +1,105 @@
+
+body {
+  background-image: url("../images/backg.png");
+  background-repeat: repeat;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777777;
+}
+
+h1, h3 {
+color:#4aaaa5;
+}
+
+h2 {
+  background: #4aaaa5;
+  color:white;
+  position: relative;
+  bottom: 70px;
+}
+
+/*navbar Adjustments*/
+.thumbnail {
+  width: 300px;
+}
+nav {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.navbar {
+    border-bottom: 2px solid silver;
+}
+
+.navbar-toggle {
+  margin-top: 25px;
+  margin-right: 5px;
+}
+
+#myname {
+  color:white;
+}
+
+.navbar-brand {
+  height: 90px;
+  background:#4aaaa5;
+  font-family:'Georgia', Times, Times New Roman, serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 55px;
+  color:white;
+}
+
+a#myname.navbar-brand:hover {
+  background:teal;
+}
+
+ul {
+  padding-top: 20px;
+  font-size: 18px;
+}
+/*end navbar*/
+
+#content {
+  background: white;
+  border: 1px solid silver;
+}
+
+#sidebar {
+  background:white;
+  text-align: center;
+  border: 1px solid silver;
+  font-family:'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+}
+
+footer {
+  border-top: 5px solid #4aaaa5 ;
+  background: gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 10%;
+}
+
+#icons {
+  padding-bottom: 10px;
+  max-width: px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-header {
+  background: teal;
+}
+
+@media (max-width: 400px) {
+  .navbar-brand {
+    width: 220px;
+  }
+
+}
