@@ -93,6 +93,21 @@ form {
   padding: 20px 5px;
 }
 
+.btn {
+    padding: 8px 20px;
+    font-size: 18px;
+    color: white;
+    background: #4aaaa5;
+    border-radius: 0px;
+    border-color: #4aaaa5;
+}
+
+.btn-default:hover {
+    color: white;
+    background-color: teal;
+    border-color: teal;
+}
+
 @media (max-width: 768px) {
   nav {
     padding-left: 0;
